@@ -47,11 +47,11 @@ Lanche + Bebida = 15% de desconto.
 Lanche + Batata = 10% de desconto.
 
 ## 🛠️ Tecnologias Utilizadas
-C# / .NET 8
+* **C# / .NET 8
 
-ASP.NET Core Web API
+* **ASP.NET Core Web API
 
-Swagger/OpenAPI (Documentação e testes)
+* **Swagger/OpenAPI (Documentação e testes)
 
 ## 📝 O que ficou de fora (Melhorias Futuras)
 Devido ao prazo sugerido e ao foco inicial nas regras de negócio, os seguintes pontos não foram incluídos nesta versão, mas estão no roadmap:
