@@ -56,11 +56,11 @@ Swagger/OpenAPI (Documentação e testes)
 ## 📝 O que ficou de fora (Melhorias Futuras)
 Devido ao prazo sugerido e ao foco inicial nas regras de negócio, os seguintes pontos não foram incluídos nesta versão, mas estão no roadmap:
 
-Persistência em Banco de Dados: Atualmente os dados são perdidos ao reiniciar a aplicação. A próxima etapa seria integrar o Entity Framework Core com SQL Server ou PostgreSQL.
+* **Persistência em Banco de Dados: Atualmente os dados são perdidos ao reiniciar a aplicação. A próxima etapa seria integrar o Entity Framework Core com SQL Server ou PostgreSQL.
 
-Autenticação: Implementação de JWT (JSON Web Token) para proteger os endpoints de criação e exclusão de pedidos.
+* **Autenticação: Implementação de JWT (JSON Web Token) para proteger os endpoints de criação e exclusão de pedidos.
 
-Frontend: Uma interface em Blazor ou React para consumir esta API (citado como diferencial).
+* **Frontend: Uma interface em Blazor ou React para consumir esta API (citado como diferencial).
 
 Logs: Implementação de Serilog para monitoramento de erros em ambiente de produção.
 
