@@ -62,6 +62,6 @@ Devido ao prazo sugerido e ao foco inicial nas regras de negócio, os seguintes 
 
 * **Frontend: Uma interface em Blazor ou React para consumir esta API (citado como diferencial).
 
-Logs: Implementação de Serilog para monitoramento de erros em ambiente de produção.
+* **Logs: Implementação de Serilog para monitoramento de erros em ambiente de produção.
 
-Testes de Unidade: Criação de testes com xUnit para validar as combinações de descontos automaticamente.
+* **Testes de Unidade: Criação de testes com xUnit para validar as combinações de descontos automaticamente.
