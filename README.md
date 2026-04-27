@@ -54,14 +54,14 @@ Lanche + Batata = 10% de desconto.
 * Swagger/OpenAPI (Documentação e testes)
 
 ## 📝 O que ficou de fora (Melhorias Futuras)
-Devido ao prazo sugerido e ao foco inicial nas regras de negócio, os seguintes pontos não foram incluídos nesta versão, mas estão no roadmap:
 
-* Persistência em Banco de Dados: Atualmente os dados são perdidos ao reiniciar a aplicação. A próxima etapa seria integrar o Entity Framework Core com SQL Server ou PostgreSQL.
+*1. Endpoint para Consultar o Cardápio
+O desafio solicita explicitamente a exposição de um endpoint para consultar o cardápio. Embora seu código de backend possua o CardapioController, sua interface (frontend) não mostra uma área onde o usuário possa visualizar os itens disponíveis e seus respectivos preços oficiais (X-Burger por R$ 5,00, Batata por R$ 2,00, etc.) antes de fazer o pedido.
 
-* Autenticação: Implementação de JWT (JSON Web Token) para proteger os endpoints de criação e exclusão de pedidos.
+*2. Tratamento e Exibição de Mensagens de Erro Clara
+Os requisitos pedem que o sistema retorne mensagens de erro claras para itens duplicados ou pedidos inválidos.
 
-* Frontend: Uma interface em Blazor ou React para consumir esta API (citado como diferencial).
+No Sistema: Sua interface atual de "Add Game" (que você adaptou para o desafio) não possui áreas de feedback visual para erros vindos da API. Se o usuário tentar adicionar um item duplicado, ele não receberá um alerta amigável na tela explicando o problema.
 
-* Logs: Implementação de Serilog para monitoramento de erros em ambiente de produção.
-
-* Testes de Unidade: Criação de testes com xUnit para validar as combinações de descontos automaticamente.
+*3. Implementação de Testes Automatizados
+O documento lista como um diferencial a criação de testes automatizados das regras de negócio. Nas capturas de tela e no código fornecido, não há evidências de uma suíte de testes (como xUnit ou NUnit) para garantir que os cálculos de desconto de 10%, 15% e 20% estão funcionando corretamente sem erros humanos.
